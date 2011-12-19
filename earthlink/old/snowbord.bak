@@ -1,0 +1,61 @@
+<html>
+<head><title>Snowboarding</title></head>
+
+<body background="fun_bak.gif">
+
+<center><h1>Snowboarding</h1></center>
+
+<hr align=center size=7>
+
+<br><UL><LI><a 
+href="http://challenge.tiac.net/users/dstein/nw353.html">Nerd 
+World Snowboarding</a></UL>
+
+<br><UL><LI><a href="http://www.jyu.fi/snw/">The Snowboarders' 
+Snowboarding Page</a></UL>
+
+<hr align=center size=5>
+
+
+<center>
+
+<table cellspacing=4 cellpadding=0 border=3>
+
+<tr><td><A HREF="hacking.htm">
+<img src="hacking.gif" width=90
+height=69 
+border=0 alt="Hacking"></td></a>
+
+<td><A HREF="bands.htm">
+<img src="m.gif" width=90 
+height=69
+border=0 alt="Bands and Music"></td></a>
+
+<td><A HREF="startrek.htm">
+<img src="sttng.gif" width=90 
+height=69 
+border=0 alt="Startrek"></a></td>
+
+<td><A HREF="bookmark.htm">
+<img src="bookmark.gif" width=90 
+height=69 
+border=0 alt="My Bookmark File"></a></td>
+
+<td><A HREF="biking.htm">
+<img src="mtbike.gif" width=90 
+height=69
+border=0 alt="Mountain Biking"></td></a>
+
+<td><A HREF="index.html">
+<img src="home.gif" width=90 
+height=69
+border=0 alt="Home"></td></a></tr></table>
+
+</center>
+
+
+
+<hr align=center size=5>
+
+</body>
+</html>

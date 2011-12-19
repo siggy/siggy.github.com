@@ -1,0 +1,95 @@
+#!/bin/sh
+
+#########################################################
+#
+# This script checks for change in the client IP address 
+# If the IP was changed 
+#
+# 1. calls the dyndns.com update
+#
+# Useful if using modem dial up or DHCP assigned IP 
+# from cable modem service.
+# 
+# Creates the following files
+#
+# 1. oldip.txt - the last IP of the client 
+# 2. newip.txt - the new IP of the client
+# 3. logip.txt - any error messages 
+#
+# Run the script as a cronjob maybe once every hour/day ?
+#
+# $crontab -e
+# 1 1 * * * /home/foo/dyndns/dyndns.sh 1> /dev/null 2>/dev/null
+#
+# Created by:
+# kishan@hackorama.com www.hackorama.com December 2001
+#
+# Modified by:
+# siggy@hotmail.com siggy.homelinux.org February 2006
+#
+#########################################################
+
+# DO WE FORCE AN UPDATE?
+FORCE=1
+if [ $# == 0 ]; then
+	FORCE=0
+fi
+
+BASE=/usr/local/bin/dyndns
+
+INTERFACE=eth0
+
+####### NORMALLY NO CHANGES BEYOND THIS ##################
+
+OLDFILE=$BASE/oldip.txt
+NEWFILE=$BASE/newip.txt
+LOGFILE=$BASE/logip.txt
+
+OLDIP=`cat $OLDFILE`
+NEWIP=`/sbin/ifconfig $INTERFACE | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}'`
+
+echo $NEWIP > $NEWFILE
+# echo "Old IP Address: $OLDIP"
+# echo "New IP Address: $NEWIP"
+
+# echo "FORCE: $FORCE"
+if [ $FORCE != 1 ]; then
+	
+	if [ $OLDIP == $NEWIP ]; then
+#		echo "SAME OLD $NEWIP $OLDIP"
+		exit
+	fi
+fi
+
+echo "IP CHANGING $NEWIP $OLDIP"
+echo "----------------------------" >> $LOGFILE
+date >> $LOGFILE
+
+if [ $NEWIP == ERROR ];	then
+	echo "ERROR GETTING IP" >> $LOGFILE
+	exit
+fi
+
+RESPONSE=`GET 'http://username:password@members.dyndns.org/nic/update?system=dyndns&hostname=myhostname.dyndns.org&myip=$NEWIP'`
+# RESPONSE=`GET 'http://test:test@members.dyndns.org/nic/update?system=dyndns&hostname=test.shacknet.nu&myip=$NEWIP'`
+
+echo "Old IP Address: $OLDIP" >> $LOGFILE
+echo "New IP Address: $NEWIP" >> $LOGFILE
+echo "HTTP Response: $RESPONSE" >> $LOGFILE
+echo "DONE" >> $LOGFILE
+
+GOOD_RESPONSE=`echo "$RESPONSE" | grep 'good'`
+NOCHG_RESPONSE=`echo "$RESPONSE" | grep 'nochg'`
+ABUSE_RESPONSE=`echo "$RESPONSE" | grep 'abuse'`
+
+if [ "$GOOD_RESPONSE" != "" ]; then
+	cp $NEWFILE $OLDFILE
+
+elif [ "$NOCHG_RESPONSE" != "" ]; then
+	cp $NEWFILE $OLDFILE
+
+elif [ "$ABUSE_RESPONSE" != "" ]; then
+	cp $NEWFILE $OLDFILE
+fi
+
+

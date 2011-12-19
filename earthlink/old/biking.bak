@@ -1,0 +1,85 @@
+<html>
+<head><title>Mountain Biking</title></head>
+
+<body background="flock.gif">
+
+<center><h1>Mountain Biking</h1></center>
+
+<hr align=center size=7>
+
+<br><UL><LI><a 
+href="http://www.bikealog.com/index.html"><img 
+src="bikealg2.gif" align=center 
+alt="Bike'alog" ></a></UL>
+
+<br><UL><LI><a 
+href="http://www.ashop.com/dir/Air3/mammoth.html">Mammoth and 
+Squaw Valley Mountain Biking</a></UL>
+
+<br><UL><LI><a 
+href="http://www.citylimits.com/~rossf/index.html">Southern 
+California Mountain Biking</a></UL>
+
+<br><UL><LI><a 
+href="http://www.nj.com/bike/mountain/links.html">Mountain Bike 
+Links</a></UL>
+
+<br><UL><LI><a 
+href="http://www.csn.net:80/VeloNews/index.html"><img 
+src="vn.gif" align=center 
+alt="VeloNews" ></a></UL>
+
+<br><UL><LI><a 
+href="http://www.futurenet.co.uk/,Siggy11,siggy,/outdoors/mtbpro.html"><img 
+src="mtbprolo.gif" align=center 
+alt="Mountain Bike Pro Magazine" ></a></UL>
+
+<br><UL><LI><a 
+href="news:rec.bicycles.off-road">rec.bicycles.off-road</a></UL>
+
+
+<hr align=center size=5>
+
+
+<center>
+
+<table cellspacing=4 cellpadding=0 border=3>
+
+<tr><td><A HREF="hacking.htm">
+<img src="hacking.gif" width=90
+height=69 
+border=0 alt="Hacking"></td></a>
+
+<td><A HREF="bands.htm">
+<img src="m.gif" width=90 
+height=69
+border=0 alt="Bands and Music"></td></a>
+
+<td><A HREF="snowbord.htm">
+<img src="sboard.gif" width=90 
+height=69
+border=0 alt="Snowboarding"></td></a>
+
+<td><A HREF="startrek.htm">
+<img src="sttng.gif" width=90 
+height=69 
+border=0 alt="Startrek"></a></td>
+
+<td><A HREF="bookmark.htm">
+<img src="bookmark.gif" width=90 
+height=69 
+border=0 alt="My Bookmark File"></a></td>
+
+<td><A HREF="index.html">
+<img src="home.gif" width=90 
+height=69
+border=0 alt="Home"></td></a></tr></table>
+
+</center>
+
+
+
+<hr align=center size=5>
+
+</body>
+</html>

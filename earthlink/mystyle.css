@@ -1,0 +1,16 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #000000;
+	SCROLLBAR-HIGHLIGHT-COLOR: #000000;
+	SCROLLBAR-SHADOW-COLOR: #000000;
+	SCROLLBAR-3DLIGHT-COLOR: #000000;
+	SCROLLBAR-ARROW-COLOR: #ff0000;
+	SCROLLBAR-TRACK-COLOR: #000000;
+	SCROLLBAR-DARKSHADOW-COLOR: #000000;
+	background-color: #000000;
+	color: #FF0000;
+}
+
+A:link {text-decoration: none; color: red;}
+A:visited {text-decoration: none; color:red;}
+A:active {text-decoration: none; color:red;}
+A:hover {text-decoration: underline; color: red;}

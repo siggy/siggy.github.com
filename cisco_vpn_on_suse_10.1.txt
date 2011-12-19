@@ -1,0 +1,16 @@
+Installing Cisco VPN Client on SUSE 10.1
+
+1) tar xvfz vpnclient-linux-4.7.00.0640-k9.tar.gz
+
+2) edit linuxcniapi.c:
+	line 292:	do_gettimeofday(&skb->stamp);	->	do_gettimeofday(&skb->tstamp);
+	line 432:	do_gettimeofday(&skb->stamp);	->	do_gettimeofday(&skb->tstamp);
+
+3) ./vpn_install
+
+4) copy RSA_VPN_Profile.pcf to install location (usr/local/bin/vpnclient)
+
+5) /etc/init.d/vpnclient_init start
+
+6) ./vpnclient connect RSA_VPN_Profile
+

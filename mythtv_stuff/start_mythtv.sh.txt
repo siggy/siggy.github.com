@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# start up the LIRC remote, if not already started
+lircd --device=/dev/lirc0
+
+# turn on TV-OUT
+nvtv -t -S NTSC --set mon_Hoffset:-5 -r 640,480 -s small
+
+# run mythtv
+mythfrontend
+
+# turn off TV-OUT
+nvtv -m
+

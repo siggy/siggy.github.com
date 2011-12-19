@@ -1,0 +1,100 @@
+<html>
+<head><title>bands</title></head>
+
+<body background="note.gif">
+
+<center><h1>Bands and Music</h1></center>
+
+<hr align=center size=7>
+
+<h2>Bands</h2>
+
+<hr align=center size=3>
+
+<br><UL><LI><a href="http://www.dmband.com/mainindex.html"><img 
+src="dmb.gif" align=center 
+height=73 width=450 alt="Dave Matthews Band" ></a></UL>
+
+<p>(If you don't like DMB, get the hell off my page!)</p>
+
+<br><UL><LI><a 
+href="http://www-personal.engin.umich.edu/~galvin/pearljam.html"><img 
+src="logo.gif" border=0 align=center 
+alt="Pearl Jam" > </a></UL>
+
+<br><UL><LI><a href="http://www.sgi.net/soundgarden/"><img 
+src="bmf-oval.gif" border=0 align=center 
+alt="Soungarden" ></a></UL>
+
+<br><UL><LI><a href="http://underground.net:80/Balance/universe.html"><img 
+src="vanhalen.gif" align=center 
+alt="Van Halen" ></a></UL>
+
+<h2>Music</h2>
+
+<hr align=center size=3>
+
+<br><UL><LI><a href="http://www.iuma.com/"><img 
+src="iuma.gif" border=0 align=center 
+alt="Internet Underground Music Archive" ></a></UL>
+
+<br><UL><LI><a href="http://american.recordings.com/index.html">American Records</a></UL>
+
+<br><UL><LI><a href="http://www.atlantic-records.com/">Atlantic Records</a></UL>
+
+<br><UL><LI><a href="http://www.delphi.com/KROQ/index.html"><img 
+src="kroq.gif" align=center 
+alt="KROQ" ></a></UL>
+
+<br><UL><LI><a href="http://www.mtv.com/"><img src="mtv.gif"  
+align=center hspace=5 height=50 width=87 alt="MTV Logo" ></a></UL>
+
+<br><UL><LI><a href="http://www.rock.net/"><img 
+src="rwilogos.gif" align=center 
+alt="RockWeb" ></a></UL>
+
+<hr align=center size=5>
+
+
+<center>
+
+<table cellspacing=4 cellpadding=0 border=3>
+
+<tr><td><A HREF="hacking.htm">
+<img src="hacking.gif" width=90
+height=69 
+border=0 alt="Hacking"></td></a>
+
+<td><A HREF="snowbord.htm">
+<img src="sboard.gif" width=90 
+height=69
+border=0 alt="Snowboarding"></td></a>
+
+<td><A HREF="startrek.htm">
+<img src="sttng.gif" width=90 
+height=69 
+border=0 alt="Startrek"></a></td>
+
+<td><A HREF="bookmark.htm">
+<img src="bookmark.gif" width=90 
+height=69 
+border=0 alt="My Bookmark File"></a></td>
+
+<td><A HREF="biking.htm">
+<img src="mtbike.gif" width=90 
+height=69
+border=0 alt="Mountain Biking"></td></a>
+
+<td><A HREF="index.html">
+<img src="home.gif" width=90 
+height=69
+border=0 alt="Home"></td></a></tr></table>
+
+</center>
+
+
+
+<hr align=center size=5>
+
+</body>
+</html>

@@ -1,0 +1,617 @@
+# ~/.mythtv/lircrc
+#
+# MythTV native LIRC config file for
+# the new grey Hauppauge remote
+#
+# Modified from Jarod Wilson's which came from Jeff Campbell's
+# By Brad Templeton
+
+
+# Here we have the jump point commands.  They only work if you have
+# defined function keys for these jump points.  For me the most
+# common command is the menu of recordings, so I put that on "videos"
+# even though that's counter-intuitive
+
+# power buttom
+begin
+prog = irexec
+button = Power
+repeat = 4
+config = /usr/local/bin/mythpowerbutton.sh
+end
+
+
+begin
+prog = mythtv
+button = TV
+repeat = 3
+config = F6
+end
+
+begin
+prog = mythtv
+button = Videos
+repeat = 3
+config = F7
+end
+
+# Not yet defined
+begin
+prog = mythtv
+button = Music
+repeat = 3
+config = F9 
+end
+
+# Given another function for now, I don't use mythgallery
+begin
+prog = mythtv
+button = Pictures
+repeat = 3
+config = F8 
+end
+
+begin
+prog = mythtv
+button = Guide
+repeat = 3
+config = S
+end
+
+# I stuck the "todo" list on here as Myth has no radio function
+begin
+prog = mythtv
+button = Radio
+repeat = 3
+config = F5
+end
+
+begin
+prog = mythtv
+button = Up
+repeat = 3
+config = Up
+end
+
+begin
+prog = mythtv
+button = Down
+repeat = 3
+config = Down
+end
+
+begin
+prog = mythtv
+button = Left
+repeat = 3
+config = Left
+end
+
+begin
+prog = mythtv
+button = Right
+repeat = 3
+config = Right
+end
+
+# Channel Up
+begin
+prog = mythtv
+button = Ch+
+repeat = 3
+config = Up
+end
+
+# Channel Down
+begin
+prog = mythtv
+button = Ch-
+repeat = 3
+config = Down
+end
+
+# OK/Select
+begin
+prog = mythtv
+button = OK
+config = Space
+end
+
+# Play
+begin
+prog = mythtv
+button = Play
+config = Return
+end
+
+# Stop
+begin
+prog = mythtv
+button = Stop
+config = I
+end
+
+# Escape/Exit/Back
+begin
+prog = mythtv
+button = Back/Exit
+config = Esc
+end
+
+# Power Off/Exit
+#begin
+#prog = mythtv
+#button = Power
+#config = Esc
+#end
+
+
+# Pause
+begin
+prog = mythtv
+button = Pause
+repeat = 3
+config = P
+end
+
+# Mute
+begin
+prog = mythtv
+button = Mute
+repeat = 3
+config = |
+end
+
+# Fast forward (30 sec default)
+begin
+prog = mythtv
+button = Rewind
+repeat = 3
+config = <
+end
+
+# Rewind (10 sec default)
+begin
+prog = mythtv
+button = Forward
+repeat = 3
+config = >
+end
+
+# Skip forward (10 min default)
+begin
+prog = mythtv
+button = SkipForward
+repeat = 3
+config = End
+end
+
+# Skip backward (10 min default)
+begin
+prog = mythtv
+button = Replay/SkipBackward
+repeat = 3
+config = Home
+end
+
+# Record
+begin
+prog = mythtv
+button = Record
+repeat = 3
+config = R
+end
+
+# Delete
+begin
+prog = mythtv
+button = Red
+repeat = 3
+config = D
+end
+
+# Bring up the edit screen
+begin
+prog = mythtv
+button = Green
+repeat = 3
+config = E
+end
+
+# Display EPG while in live TV,
+# View selected show while in EPG
+begin
+prog = mythtv
+button = Menu/i
+repeat = 3
+config = M
+end
+
+# Scroll up
+begin
+prog = mythtv
+button = Vol+
+repeat = 3
+config = F11
+end
+
+# Scroll down
+begin
+prog = mythtv
+button = Vol-
+repeat = 3
+config = F10
+end
+
+# Bring up OSD info
+begin
+prog = mythtv
+button = Go
+repeat = 3
+config = I
+end
+
+# previous channel
+begin
+prog = mythtv
+button = Prev.Ch
+repeat = 3
+config = H
+end
+
+# tag a recording, in the Recordings section 
+begin
+prog = mythtv
+button = Yellow
+repeat = 3
+config = Y 
+end
+
+# change tuners
+begin
+prog = mythtv
+button = #
+repeat = 3
+config = C
+end
+
+# load the cut list while editing 
+begin
+prog = irexec
+button = Blue
+repeat = 0
+config = /usr/local/bin/osd.sh 
+end
+
+# load the cut list while editing 
+#begin
+#prog = mythtv
+#button = Blue
+#repeat = 3
+#config = Z 
+#end
+
+# Numbers 0-9
+
+begin
+prog = mythtv
+button = 0
+repeat = 3
+config = 0
+end
+
+begin
+prog = mythtv
+button = 1
+repeat = 3
+config = 1
+end
+
+begin
+prog = mythtv
+button = 2
+repeat = 3
+config = 2
+end
+
+begin
+prog = mythtv
+button = 3
+repeat = 3
+config = 3
+end
+
+begin
+prog = mythtv
+button = 4
+repeat = 3
+config = 4
+end
+
+begin
+prog = mythtv
+button = 5
+repeat = 3
+config = 5
+end
+
+begin
+prog = mythtv
+button = 6
+repeat = 3
+config = 6
+end
+
+begin
+prog = mythtv
+button = 7
+repeat = 3
+config = 7
+end
+
+begin
+prog = mythtv
+button = 8
+repeat = 3
+config = 8
+end
+
+begin
+prog = mythtv
+button = 9
+repeat = 3
+config = 9
+end
+
+
+### MPlayer lirc setup
+
+# Show OSD
+begin
+prog = mplayer
+button = Menu/i
+repeat = 3
+config = osd
+end
+
+# Pause playback
+begin
+prog = mplayer
+button = Pause
+repeat = 3
+config = pause
+end
+
+# Skip ahead a minute if playing
+# If paused, resume playing
+begin
+prog = mplayer
+button = Play
+repeat = 3
+config = seek +1
+end
+
+# Stop playback and exit
+begin
+prog = mplayer
+button = Stop
+repeat = 3
+config = quit
+end
+
+# Mute
+begin
+prog = mplayer
+button = Mute
+repeat = 3
+config = mute
+end
+
+# Seek back 10 seconds
+begin
+prog = mplayer
+button = Rewind
+repeat = 3
+config = seek -10
+end
+
+# Seek forward 30 seconds
+begin
+prog = mplayer
+button = Forward
+repeat = 3
+config = seek +30
+end
+
+# Quit
+begin
+prog = mplayer
+button = Back/Exit
+repeat = 3
+config = quit
+end
+
+# Seek forward 10 minutes
+begin
+prog = mplayer
+button = SkipForward
+repeat = 3
+config = seek +600
+end
+
+# Seek backward 10 minutes
+begin
+prog = mplayer
+button = Replay/SkipBackward
+repeat = 3
+config = seek -600
+end
+
+# Toggle full-screen
+begin
+prog = mplayer
+button = Prev.Ch
+repeat = 3
+config = vo_fullscreen
+end
+
+### Xine lirc setup
+
+begin
+prog = xine
+button = Play
+repeat = 3
+config = Play
+end
+
+begin
+prog = xine
+button = Stop
+repeat = 3
+config = Quit
+end
+
+#begin
+#prog = xine
+#button = OFF
+#repeat = 3
+#config = Quit
+#end
+
+begin
+prog = xine
+button = Pause
+repeat = 3
+config = Pause
+end
+
+begin
+prog = xine
+button = Up 
+repeat = 3
+config = EventUp
+end
+
+begin
+prog = xine
+button = Down 
+repeat = 3
+config = EventDown
+end
+
+begin
+prog = xine
+button = Left 
+repeat = 3
+config = EventLeft
+end
+
+begin
+prog = xine
+button = Right
+repeat = 3
+config = EventRight
+end
+
+begin
+prog = xine
+button = OK
+repeat = 3
+config = EventSelect
+end
+
+begin
+prog = xine
+button = Back/Exit 
+repeat = 3
+config = Menu/i
+end
+
+begin
+prog = xine
+button = Forward
+repeat = 3
+config = SpeedFaster
+#config = SeekRelative+60
+end
+
+begin
+prog = xine
+button = Rewind
+repeat = 3
+config = SpeedSlower
+#config = SeekRelative-60
+end
+
+begin
+prog = xine
+button = Vol+
+repeat = 3
+config = Volume+ 
+end
+
+begin
+prog = xine
+button = Vol-
+repeat = 3
+config = Volume-
+end
+
+begin
+prog = xine
+button = Mute
+repeat = 3
+config = Mute
+end
+
+begin
+prog = xine
+button = Menu/i
+repeat = 3
+config = RootMenu
+end
+
+begin
+prog = xine
+button = Guide
+repeat = 3
+config = RootMenu
+end
+
+begin
+prog = xine
+button = SkipForward
+repeat = 3
+config = SeekRelative+60
+#config = EventNext
+end
+
+begin
+prog = xine
+button = Replay/SkipBackward
+repeat = 3
+config = SeekRelative-60
+#config = EventPrior
+end
+
+begin
+prog = xine
+button = Go
+repeat = 3
+config = OSDStreamInfos
+end
+
+begin
+prog = xine
+button = Red
+repeat = 3
+config = Quit
+end
+
+begin
+prog = xine
+button = Yellow
+repeat = 3
+config = Eject
+end
+
