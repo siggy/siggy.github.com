@@ -1,266 +1,255 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-	<head>
+  <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title>Big Eat SF Map</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Big Eat SF Map</title>
 
-	<script
-		type="text/javascript"
-		src="./scripts/google_api_keys.js">
-	</script>
+  <script
+    type="text/javascript"
+    src="./scripts/google_api_keys.js">
+  </script>
 
     <script type="text/javascript">
     //<![CDATA[
 
-		/**
-		* Lists the entries from the specified JSON feed
-		* by inserting the cells into a new 'table'
-		* element in the DOM.  Each 'tr' represents a
-		* row in the spreadsheet, and each 'td' is a cell
-		* within that row.
-		*/
-		function cellEntries(json)
-		{
-			var table = document.createElement('table');
-			table.setAttribute('id', 'output');
-			var tbody = document.createElement('tbody');
+    /**
+    * Lists the entries from the specified JSON feed
+    * by inserting the cells into a new 'table'
+    * element in the DOM.  Each 'tr' represents a
+    * row in the spreadsheet, and each 'td' is a cell
+    * within that row.
+    */
+    function cellEntries(json)
+    {
+      var table = document.createElement('table');
+      table.setAttribute('id', 'output');
+      var tbody = document.createElement('tbody');
 
-			var tr;
+      var tr;
 
-			for (var i=0; i < json.feed.entry.length; i++)
-			{
-				var entry = json.feed.entry[i];
+      for (var i=0; i < json.feed.entry.length; i++)
+      {
+        var entry = json.feed.entry[i];
 
-				// skip header
-				if (entry.gs$cell.row != '1')
-				{
-					// only process location
-					if (entry.gs$cell.col == '3')
-					{
-						var location = entry.content.$t;
+        // skip header
+        if (entry.gs$cell.row != '1')
+        {
+          // only process location
+          if (entry.gs$cell.col == '3')
+          {
+            var location = entry.content.$t;
 
-					}
-				}
+          }
+        }
 
 
 
-				if (entry.gs$cell.col == '1')
-				{
-					if (tr != null)
-					{
-						tbody.appendChild(tr);
-					}
+        if (entry.gs$cell.col == '1')
+        {
+          if (tr != null)
+          {
+            tbody.appendChild(tr);
+          }
 
-					tr = document.createElement('tr');
-				}
+          tr = document.createElement('tr');
+        }
 
-				var td = document.createElement('td');
-				td.appendChild(document.createTextNode(entry.content.$t));
-				tr.appendChild(td);
-			}
+        var td = document.createElement('td');
+        td.appendChild(document.createTextNode(entry.content.$t));
+        tr.appendChild(td);
+      }
 
-			tbody.appendChild(tr);
-			table.appendChild(tbody);
-			document.getElementById('data').appendChild(table);
-		}
+      tbody.appendChild(tr);
+      table.appendChild(tbody);
+      document.getElementById('data').appendChild(table);
+    }
 
-		// the google map
-		var map;
+    // the google map
+    var map;
 
-		function onLoad()
-		{
-			map = new GMap2(document.getElementById("map"));
-			map.setCenter(new GLatLng(37.4036, -122.2706), 4, G_HYBRID_MAP);
+    function onLoad()
+    {
+      map = new GMap2(document.getElementById("map"));
+      map.setCenter(new GLatLng(37.4036, -122.2706), 4, G_HYBRID_MAP);
 
-			map.enableDoubleClickZoom();
-			map.enableContinuousZoom();
+      map.enableDoubleClickZoom();
+      map.enableContinuousZoom();
 
-			map.addControl(new GLargeMapControl());
-			map.addControl(new GMapTypeControl());
+      map.addControl(new GLargeMapControl());
+      map.addControl(new GMapTypeControl());
 
-			if (window.attachEvent)
-			{
-				// IE
-				var height=document.documentElement.clientHeight*0.95;
-				document.getElementById("map").style.height=height+"px";
+      if (window.attachEvent)
+      {
+        // IE
+        var height=document.documentElement.clientHeight*0.95;
+        document.getElementById("map").style.height=height+"px";
 
-				var width=document.documentElement.clientWidth*0.95;
-				document.getElementById("map").style.width=width+"px";
+        var width=document.documentElement.clientWidth*0.95;
+        document.getElementById("map").style.width=width+"px";
 
-				document.getElementById("map").style.top="70px";
-				document.getElementById("map").style.bottom="100px";
+        document.getElementById("map").style.top="70px";
+        document.getElementById("map").style.bottom="100px";
 
-				window.attachEvent
-				(
-					"onresize",
-					function()
-					{
-						// IE
-						var height=document.documentElement.clientHeight*0.95;
-						document.getElementById("map").style.height=height+"px";
+        window.attachEvent
+        (
+          "onresize",
+          function()
+          {
+            // IE
+            var height=document.documentElement.clientHeight*0.95;
+            document.getElementById("map").style.height=height+"px";
 
-						var width=document.documentElement.clientWidth*0.95;
-						document.getElementById("map").style.width=width+"px";
+            var width=document.documentElement.clientWidth*0.95;
+            document.getElementById("map").style.width=width+"px";
 
-						document.getElementById("map").style.top="70px";
-						document.getElementById("map").style.bottom="100px";
-					}
-				);
-			}
+            document.getElementById("map").style.top="70px";
+            document.getElementById("map").style.bottom="100px";
+          }
+        );
+      }
 
-			// Retrieve the JSON feed.
-			var script = document.createElement('script');
+      // Retrieve the JSON feed.
+      var script = document.createElement('script');
 
-			script.setAttribute('src', 'http://spreadsheets.google.com/feeds/cells/plrKWzh8z4Qc7H_5ZM1o8CA/default/public/values?alt=json-in-script&callback=cellEntries');
+      script.setAttribute('src', 'http://spreadsheets.google.com/feeds/cells/plrKWzh8z4Qc7H_5ZM1o8CA/default/public/values?alt=json-in-script&callback=cellEntries');
 
-			script.setAttribute('id', 'jsonScript');
-			script.setAttribute('type', 'text/javascript');
-			document.documentElement.firstChild.appendChild(script);
-		}
+      script.setAttribute('id', 'jsonScript');
+      script.setAttribute('type', 'text/javascript');
+      document.documentElement.firstChild.appendChild(script);
+    }
 
-		function addEatToMap(point, artist, origin)
-		{
-			var marker = new GMarker(point);
+    function addEatToMap(point, artist, origin)
+    {
+      var marker = new GMarker(point);
 
-			// add a listener to show data when clicked
-			GEvent.addListener
-			(
-				marker,
-				"click",
-				function()
-				{
-					marker.openInfoWindowHtml(artist + '<br>' + origin);
-				}
-			);
+      // add a listener to show data when clicked
+      GEvent.addListener
+      (
+        marker,
+        "click",
+        function()
+        {
+          marker.openInfoWindowHtml(artist + '<br>' + origin);
+        }
+      );
 
-			// now add to the map
-			map.addOverlay(marker);
+      // now add to the map
+      map.addOverlay(marker);
 
-			marker.openInfoWindowHtml(artist + '<br>' + origin);
-		}
+      marker.openInfoWindowHtml(artist + '<br>' + origin);
+    }
 
-		// calls the artist_to_origin cgi script
-		function artist_to_origin()
-		{
-			var artist_name = document.forms[0].artist_form.value;
+    // calls the artist_to_origin cgi script
+    function artist_to_origin()
+    {
+      var artist_name = document.forms[0].artist_form.value;
 
-			var url = "/cgi-bin/artist_to_origin2.cgi?" + escape(artist_name);
+      var url = "/cgi-bin/artist_to_origin2.cgi?" + escape(artist_name);
 
-			GDownloadUrl
-			(
-				url,
-				function(data, responseCode)
-				{
-					if (data != 0)
-					{
-						var xml = GXml.parse(data);
+      GDownloadUrl
+      (
+        url,
+        function(data, responseCode)
+        {
+          if (data != 0)
+          {
+            var xml = GXml.parse(data);
 
-						var markers = xml.documentElement.getElementsByTagName("marker");
-						var artists = xml.documentElement.getElementsByTagName("artist");
-						var origins = xml.documentElement.getElementsByTagName("origin");
+            var markers = xml.documentElement.getElementsByTagName("marker");
+            var artists = xml.documentElement.getElementsByTagName("artist");
+            var origins = xml.documentElement.getElementsByTagName("origin");
 
-						var point = new GLatLng(parseFloat(markers[0].getAttribute("lat")), parseFloat(markers[0].getAttribute("lng")));
-						var artist = GXml.value(artists[0]);
-						var origin = GXml.value(origins[0]);
+            var point = new GLatLng(parseFloat(markers[0].getAttribute("lat")), parseFloat(markers[0].getAttribute("lng")));
+            var artist = GXml.value(artists[0]);
+            var origin = GXml.value(origins[0]);
 
-						document.forms[0].artist_form.value = artist;
+            document.forms[0].artist_form.value = artist;
 
-						addEatToMap(point, artist, origin);
+            addEatToMap(point, artist, origin);
 
-						document.getElementById('status_response').firstChild.nodeValue = "Last Query: " + artist + ": " +  origin;
-					}
-					else
-					{
-						document.getElementById('status_response').firstChild.nodeValue = "Last Query: No match";
-					}
-				}
-			);
-		}
+            document.getElementById('status_response').firstChild.nodeValue = "Last Query: " + artist + ": " +  origin;
+          }
+          else
+          {
+            document.getElementById('status_response').firstChild.nodeValue = "Last Query: No match";
+          }
+        }
+      );
+    }
 
-	//]]>
-	</script>
+  //]]>
+  </script>
 
-	<script type="text/javascript">
+  <script type="text/javascript">
     //<![CDATA[
 
 
-	//]]>
-	</script>
-
-	<link rel="stylesheet" type="text/css" href="http://code.google.com/css/dev_docs.css">
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-27834075-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  //]]>
   </script>
 
-	</head>
+  <link rel="stylesheet" type="text/css" href="http://code.google.com/css/dev_docs.css">
 
-	<body onload="onLoad()">
+  <script type="text/javascript" src="/scripts/google_analytics.js"></script></head>
 
-		<div id="data"></div>
+  <body onload="onLoad()">
 
-		<div id="form" style="position: absolute; top: 0px; left: 10px; ">
+    <div id="data"></div>
 
-			<!-- Creates a simple input box where you can enter an address and a Search button that submits the form. //-->
-			<form action="#" onsubmit="artist_to_origin(); return false;">
-				<p>
-					<b>Enter an artist name:</b>
-					<input type="text" name="artist_form" value="" class="address_input" size="40" />
-					<input type="submit" name="find" value="Search" />
-				</p>
-			</form>
+    <div id="form" style="position: absolute; top: 0px; left: 10px; ">
 
-		</div>
+      <!-- Creates a simple input box where you can enter an address and a Search button that submits the form. //-->
+      <form action="#" onsubmit="artist_to_origin(); return false;">
+        <p>
+          <b>Enter an artist name:</b>
+          <input type="text" name="artist_form" value="" class="address_input" size="40" />
+          <input type="submit" name="find" value="Search" />
+        </p>
+      </form>
 
-		<div id="div_response" style="position: absolute; top: 35px; bottom: 70px; left: 10px; right: 10px; height: 35px; width: 728px">
+    </div>
 
-			<p id="status_response" style="font-weight: bold;">Find your artist on the map...</p>
+    <div id="div_response" style="position: absolute; top: 35px; bottom: 70px; left: 10px; right: 10px; height: 35px; width: 728px">
 
-		</div>
+      <p id="status_response" style="font-weight: bold;">Find your artist on the map...</p>
 
-		<script type = "text/javascript">
-			var ua=navigator.userAgent.toLowerCase();
-			if (ua.indexOf("msie") != -1)
-			{
-				// IE
-				document.write('<div id="map" style="position: absolute; top: 70x; bottom: 100px; left: 10px; right: 10px; height: 500px; width: 500px"></div>');
-			}
-			else
-			{
-				// everyone else
-				document.write('<div id="map" style="position: absolute; top: 70px; bottom: 100px; left: 10px; right: 10px; "></div>');
-			}
-		</script>
+    </div>
 
-		<br />
+    <script type = "text/javascript">
+      var ua=navigator.userAgent.toLowerCase();
+      if (ua.indexOf("msie") != -1)
+      {
+        // IE
+        document.write('<div id="map" style="position: absolute; top: 70x; bottom: 100px; left: 10px; right: 10px; height: 500px; width: 500px"></div>');
+      }
+      else
+      {
+        // everyone else
+        document.write('<div id="map" style="position: absolute; top: 70px; bottom: 100px; left: 10px; right: 10px; "></div>');
+      }
+    </script>
 
-		<div id="ad" style="position: absolute; bottom: 0px; left: 10px; ">
+    <br />
 
-			<script type="text/javascript"><!--
-				google_ad_client = "pub-6563613747797837";
-				google_ad_width = 728;
-				google_ad_height = 90;
-				google_ad_format = "728x90_as";
-				google_ad_type = "text_image";
-				google_ad_channel ="";
-				//--></script>
+    <div id="ad" style="position: absolute; bottom: 0px; left: 10px; ">
 
-			<script type="text/javascript"
-				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-				</script>
+      <script type="text/javascript"><!--
+        google_ad_client = "pub-6563613747797837";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        google_ad_format = "728x90_as";
+        google_ad_type = "text_image";
+        google_ad_channel ="";
+        //--></script>
 
-		</div>
+      <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
 
-	</body>
+    </div>
+
+  </body>
 
 </html>
 
