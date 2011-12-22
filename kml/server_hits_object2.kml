@@ -2,8 +2,8 @@
 <kml xmlns="http://earth.google.com/kml/2.1">
 <Document>
    <name>1028 server hits, 310 cities, 33 countries</name>
-   
-   
+
+
     <Region>
       <LatLonAltBox>
         <north>90</north>
@@ -11,7 +11,7 @@
         <east>90</east>
         <west>-90</west>
 	<minAltitude>0</minAltitude>
-	<maxAltitude>0</maxAltitude>        
+	<maxAltitude>0</maxAltitude>
       </LatLonAltBox>
       <Lod>
 	<minLodPixels>0</minLodPixels>
@@ -27,17 +27,17 @@
       <IconStyle>
          <scale>.1</scale>
          <Icon>
-            <href>http://siggy.homelinux.org/kml/sphere.png</href>
+            <href>http://sig.gy/kml/sphere.png</href>
          </Icon>
          <hotSpot x=".5" y="0" xunits="fraction" yunits="fraction"/>
       </IconStyle>
       <LabelStyle>  <!-- 0 scale hides text -->
         <scale>0</scale>
-      </LabelStyle>      
+      </LabelStyle>
    </Style>
-   
-   
-   
+
+
+
    <Folder>
       <name>1028 server hits, 310 cities, 33 countries</name>
       <Folder>
@@ -3724,7 +3724,7 @@
         <east>90</east>
         <west>-90</west>
 	<minAltitude>0</minAltitude>
-	<maxAltitude>0</maxAltitude>        
+	<maxAltitude>0</maxAltitude>
       </LatLonAltBox>
       <Lod>
 	<minLodPixels>0</minLodPixels>

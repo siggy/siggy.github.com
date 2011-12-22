@@ -4,7 +4,7 @@
   <NetworkLink>
     <name>server_hits_object.kml</name>
     <Link>
-      <href>http://siggy.homelinux.org/kml/server_hits_object.kml</href>
+      <href>http://sig.gy/kml/server_hits_object.kml</href>
       <refreshMode>onInterval</refreshMode>
       <refreshInterval>600</refreshInterval>
     </Link>

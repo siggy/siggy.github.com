@@ -3,7 +3,7 @@
 <GroundOverlay>
 	<name>presidio_overlay_local.kml</name>
 	<Icon>
-		<href>http://siggy.homelinux.org/kml/presidio.gif</href>
+		<href>http://sig.gy/kml/presidio.gif</href>
 	</Icon>
 	<LatLonBox id="khLatLonBox628_copy0">
 		<north>37.81281189567978</north>

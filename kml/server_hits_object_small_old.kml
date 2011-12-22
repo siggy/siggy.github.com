@@ -6,7 +6,7 @@
 		<IconStyle>
 			<scale>.3</scale>
 			<Icon>
-				<href>http://siggy.homelinux.org/kml/sphere_white.png</href>
+				<href>http://sig.gy/kml/sphere_white.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -21,7 +21,7 @@
 		<IconStyle>
 			<scale>.6</scale>
 			<Icon>
-				<href>http://siggy.homelinux.org/kml/sphere_gold.png</href>
+				<href>http://sig.gy/kml/sphere_gold.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
