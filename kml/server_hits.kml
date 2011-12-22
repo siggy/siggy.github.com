@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <NetworkLink>
+    <name>server_hits_object.kml</name>
+    <Link>
+      <href>http://siggy.homelinux.org/kml/server_hits_object.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>600</refreshInterval>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>

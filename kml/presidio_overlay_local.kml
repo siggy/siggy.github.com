@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<GroundOverlay>
+	<name>presidio_overlay_local.kml</name>
+	<Icon>
+		<href>http://siggy.homelinux.org/kml/presidio.gif</href>
+	</Icon>
+	<LatLonBox id="khLatLonBox628_copy0">
+		<north>37.81281189567978</north>
+		<south>37.78544542946388</south>
+		<east>-122.4418120439899</east>
+		<west>-122.4934383029208</west>
+		<rotation>1.028367261980577</rotation>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

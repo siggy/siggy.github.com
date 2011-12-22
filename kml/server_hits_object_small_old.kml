@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name>1037 server hits, 307 cities, 33 countries</name>
+	<Style id="sphere_normal">
+		<IconStyle>
+			<scale>.3</scale>
+			<Icon>
+				<href>http://siggy.homelinux.org/kml/sphere_white.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>7fffffff</color>
+			<width>1</width>
+		</LineStyle>
+	</Style>
+	<Style id="sphere_highlight">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://siggy.homelinux.org/kml/sphere_gold.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>7f00ffff</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="sphere_icon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sphere_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sphere_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>1037 server hits, 307 cities, 33 countries</name>
+		<Folder>
+			<name>AFGHANISTAN: 4 hits, 1 cities</name>
+			<Placemark>
+				<name>Kabul, AFGHANISTAN: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>69.1833,34.5167,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ARGENTINA: 9 hits, 2 cities</name>
+			<Placemark>
+				<name>Buenos Aires, ARGENTINA: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-58.3667,-34.5833,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mar Del Plata, ARGENTINA: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-57.5667,-37.9333,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>AUSTRALIA: 8 hits, 4 cities</name>
+			<Placemark>
+				<name>Gold Coast, AUSTRALIA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>153.417,-27.9667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Melbourne, AUSTRALIA: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>144.967,-37.7833,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Newcastle, AUSTRALIA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>151.75,-32.9167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sydney, AUSTRALIA: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>151.0,-34.0,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>BELGIUM: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Brussel, BELGIUM: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>4.3333,50.8333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>BRAZIL: 4 hits, 3 cities</name>
+			<Placemark>
+				<name>Jaraguá do Sul, BRAZIL: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-49.0667,-26.4833,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rio De Janeiro, BRAZIL: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-43.2,-22.95,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>São Paulo, BRAZIL: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-46.6333,-23.5666,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>CANADA: 31 hits, 13 cities</name>
+			<Placemark>
+				<name>CALGARY, AB, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-114.083,51.05,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DARTMOUTH, NS, CANADA: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-63.5667,44.6667,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LONDON, ON, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.2333,42.9833,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MISSISSAUGA, ON, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-79.5,43.15,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Montreal, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.5667,45.5167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Montréal, Île de, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.6667,45.5,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QUBEC, QC, CANADA: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.3024,46.8266,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sault Ste. Marie, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.33,46.5,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sherbrooke, Nova Scotia, CANADA: 11 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-61.9833,45.1333,1284512.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TORONTO, ON, CANADA: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-79.3833,43.65,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VANCOUVER, BC, CANADA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-123.117,49.2667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WINDSOR, NB, CANADA: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-83.0333,42.3333,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WINNIPEG, MB, CANADA: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-97.15,49.8833,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>CHILE: 4 hits, 3 cities</name>
+			<Placemark>
+				<name>Quilpué, CHILE: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.4494,-33.045,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Santiago, CHILE: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-70.75,-33.4667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Valdivia, CHILE: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-70.6608,-30.7467,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>CHINA: 2 hits, 1 cities</name>
+			<Placemark>
+				<name>Xuzhou, CHINA: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>117.192,34.2669,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>COLOMBIA: 14 hits, 3 cities</name>
+			<Placemark>
+				<name>Bogotá, COLOMBIA: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.2833,10.4,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cali, COLOMBIA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.5167,3.45,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Colombia, COLOMBIA: 8 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.0,10.65,1135802.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>COSTA RICA: 2 hits, 2 cities</name>
+			<Placemark>
+				<name>Heredia, COSTA RICA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.1167,10.0,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San José, COSTA RICA: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.4,10.0167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>EGYPT: 2 hits, 1 cities</name>
+			<Placemark>
+				<name>Cairo, EGYPT: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>31.35,30.0333,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ESTONIA: 2 hits, 1 cities</name>
+			<Placemark>
+				<name>Kohila, ESTONIA: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>24.7575,59.1681,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>FRANCE: 2 hits, 1 cities</name>
+			<Placemark>
+				<name>Avignon, FRANCE: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>4.8167,43.95,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>GERMANY: 12 hits, 6 cities</name>
+			<Placemark>
+				<name>Ankum, GERMANY: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>7.8833,52.55,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Berlin, GERMANY: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>13.4167,52.5,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cologne, GERMANY: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>6.95,50.9333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hamm, GERMANY: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>6.6,49.5667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pforzheim, GERMANY: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>8.7,48.8833,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stuttgart, GERMANY: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>9.18333,48.7667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>HAITI: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Port-au-Prince, HAITI: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-72.3333,18.5333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>HONDURAS: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Tegucigalpa, HONDURAS: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.2167,14.1,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>HONG KONG: 8 hits, 1 cities</name>
+			<Placemark>
+				<name>Hong Kong, HONG KONG: 8 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>114.167,22.25,1135802.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>IRELAND: 4 hits, 3 cities</name>
+			<Placemark>
+				<name>Dublin, IRELAND: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-6.25,53.3333,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kilkenny, IRELAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-7.25,52.65,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Manor Hamilton, IRELAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-8.1833,54.3,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ITALY: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Nova Milanese, ITALY: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>9.2,45.5833,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>JAPAN: 34 hits, 4 cities</name>
+			<Placemark>
+				<name>Kumamoto, JAPAN: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>130.717,32.8,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kyota, JAPAN: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>127.969,26.5414,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Osaka, JAPAN: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>135.5,34.5333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tokyo, JAPAN: 30 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>139.75,35.6667,1775117.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>KOREA, REPUBLIC OF: 3 hits, 1 cities</name>
+			<Placemark>
+				<name>Seoul, KOREA, REPUBLIC OF: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>126.967,37.55,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>MEXICO: 6 hits, 4 cities</name>
+			<Placemark>
+				<name>Mexico City, MEXICO: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-99.1167,19.4333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nogales, MEXICO: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-97.1667,18.8167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pachuca, MEXICO: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-98.7333,20.1167,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Puerto Vallarta, MEXICO: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-105.25,20.6167,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>NEW ZEALAND: 11 hits, 6 cities</name>
+			<Placemark>
+				<name>Auckland, NEW ZEALAND: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>174.75,-36.8667,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Christchurch, NEW ZEALAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>172.633,-43.5333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Palmerston North, NEW ZEALAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>175.617,-40.35,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Timaru, NEW ZEALAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>171.25,-44.4,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wellington, NEW ZEALAND: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>174.783,-41.2833,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Whangarei, NEW ZEALAND: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>174.19,-35.43,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PHILIPPINES: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Cebu, PHILIPPINES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>123.75,10.3333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>POLAND: 2 hits, 2 cities</name>
+			<Placemark>
+				<name>Piaseczno, POLAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>20.2667,50.4167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wroclaw, POLAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>17.09,51.11,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>RUSSIAN FEDERATION: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Moscow, RUSSIAN FEDERATION: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>37.6,55.75,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>SERBIA AND MONTENEGRO: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Belgrade, SERBIA AND MONTENEGRO: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>20.5,44.8333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>SPAIN: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Palma de Mallorca, SPAIN: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>2.65,39.5667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>SWITZERLAND: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Wila, SWITZERLAND: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>8.8333,47.4167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>TRINIDAD AND TOBAGO: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>San Fernando, TRINIDAD AND TOBAGO: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-61.4667,10.2833,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>UKRAINE: 1 hits, 1 cities</name>
+			<Placemark>
+				<name>Kiyiv, UKRAINE: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>30.5167,50.4333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>UNITED KINGDOM: 14 hits, 5 cities</name>
+			<Placemark>
+				<name>Chester, UNITED KINGDOM: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-2.9167,53.2,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Edinburgh, UNITED KINGDOM: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-3.2,55.95,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hathersage, UNITED KINGDOM: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-1.65,53.3167,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>London, UNITED KINGDOM: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.1167,51.5,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>York, UNITED KINGDOM: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-1.0833,53.9667,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>UNITED STATES: 848 hits, 229 cities</name>
+			<Placemark>
+				<name>Addison, TX, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-96.8372,32.9612,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Akron, CO, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-103.212,40.1626,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alba, TX, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-95.6352,32.7914,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Albany, NY, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.799,42.6657,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alexandria, VA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.0647,38.8147,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Altamonte Springs, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.3952,28.6621,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amherst, MA, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-72.5167,42.3667,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Anchorage, AK, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-150.02,61.17,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Appleton, WI, UNITED STATES: 15 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-88.3963,44.2663,1433223.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Archer, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.5189,29.5341,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Arlington, TX, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-97.1275,32.6945,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ashburn, VA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.4833,39.05,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Atlanta, GA, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.4226,33.7629,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Auburn, NY, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.5689,42.9332,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Austin, TX, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-97.7505,30.3059,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Avon, IN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-86.3833,39.7667,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BEAUMONT, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-116.979,33.9318,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Baltimore, MD, UNITED STATES: 11 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.6106,39.3008,1284512.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bel Air, MD, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.3469,39.5346,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bellevue, NE, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-95.9226,41.1564,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bellingham, WA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.467,48.744,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bensalem, PA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.95,40.1,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Berkeley, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.297,37.8672,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Big Bear Lake, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-116.894,34.2437,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bishopville, SC, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.2479,34.2199,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bloomingdale, GA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.3085,32.118,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Boston, MA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.0179,42.336,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bothell, WA, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.197,47.76,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Boulder, CO, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-105.251,40.0269,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brick Town, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.1167,40.0333,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bridgeport, CT, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.1962,41.1863,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brooklyn, NY, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.95,40.635,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brunswick, ME, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-69.9384,43.9107,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Burlingame, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.363,37.5903,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CALEDONIA, MI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.5132,42.7939,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CLARKSBURG, WV, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.3318,39.2804,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cambridge, MA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.1187,42.3758,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cary, NC, UNITED STATES: 16 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-78.7989,35.7834,1464561.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centralia, WA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.962,46.7212,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cherry Hill, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.9961,39.9023,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chicago, IL, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.685,41.8371,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cincinnati, OH, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.506,39.1398,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Clarksville, TN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.3473,36.5611,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Clearwater, FL, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.7655,27.9794,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cleveland, OH, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.6785,41.4797,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Colorado Springs, CO, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-104.76,38.8632,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Columbia, MD, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.85,39.2,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Columbus, IN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.9134,39.2107,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Columbus, OH, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.9874,39.9889,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Concord, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.0,37.9733,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Corona, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.57,33.8679,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cupertino, CA, UNITED STATES: 37 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.047,37.3144,1880362.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dallas, TX, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-96.7653,32.7942,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Pere, WI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-88.0717,44.4385,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Denver, CO, UNITED STATES: 15 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-104.873,39.768,1433223.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ELKHART, IN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.9688,41.6868,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Edison, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.3693,40.5288,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>El Paso, TX, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-106.438,31.8493,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>El Segundo, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.425,33.9106,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eldridge, IA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-90.5733,41.6358,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elk Grove, CA, UNITED STATES: 7 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.367,38.4008,1074917.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elkton, MD, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.8208,39.6035,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Escondido, CA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.071,33.1364,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Everett, WA, UNITED STATES: 6 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.199,47.9633,1005891.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fairbanks, AK, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-147.649,64.8371,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fairborn, OH, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.0175,39.8045,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fairfax, VA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.2982,38.8536,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fairport Harbor, OH, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.2733,41.7475,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fayetteville, NC, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-78.8992,35.0717,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Federal Way, WA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.341,47.3119,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Florida, NY, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.3543,41.3303,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Flushing, NY, UNITED STATES: 6 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.817,40.765,1005891.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Forest City, NC, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.8691,35.336,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fort Lauderdale, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.1395,26.1425,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fort Worth, TX, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-97.3363,32.7539,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Framingham, MA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.4379,42.3059,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fredericksburg, VA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.4871,38.2993,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fresno, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-119.793,36.7806,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fullerton, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.928,33.8848,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GRESHAM, OR, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.438,45.5038,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gainesville, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.3363,29.6742,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gaithersburg, MD, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.2166,39.1413,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gillette, WY, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-105.518,44.2818,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Greensboro, NC, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-79.8269,36.0789,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Half Moon Bay, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.437,37.4701,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hanover, IN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.4719,38.7161,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hartford, CT, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-72.6839,41.7657,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Herndon, VA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.3873,38.9692,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Holland, MI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-86.1022,42.7717,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Homestead, FL, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.4542,25.4619,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hudson, MA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.5586,42.391,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huntington Beach, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.008,33.6918,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huntington, NY, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.4167,40.8833,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huntsville, AL, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-86.6277,34.707,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Indiana, PA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-79.1558,40.6219,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Indianapolis, IN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-86.27,39.73,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jacksonville, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.52,30.33,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jonesboro, GA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.3529,33.522,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Joplin, MO, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-94.503,37.0818,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Junction City, KS, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-96.842,39.0286,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kenilworth, NJ, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.2889,40.6789,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kent, OH, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.3625,41.1471,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kingsport, TN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.5569,36.5295,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kirkland, WA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.194,47.6846,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LAKE ELSINORE, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.321,33.669,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>La Jolla, CA, UNITED STATES: 9 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.424,32.8862,1190266.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lakeland, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.96,28.0412,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Las Vegas, NV, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-115.223,36.2057,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Los Angeles, CA, UNITED STATES: 13 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.411,34.1121,1364197.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Louisville, KY, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.7412,38.2248,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MULBERRY, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.9731,27.9016,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Madison, WI, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-89.3875,43.0798,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marina Del Rey, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.451,33.9803,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marinette, WI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.6269,45.0885,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marion, IA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-91.5895,42.0344,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mastic Beach, NY, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-72.8402,40.7615,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Medford, MA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.1087,42.4225,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Medina, TN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-88.7743,35.8034,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Menlo Park, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.144,37.48,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mexico, MO, UNITED STATES: 24 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-91.8706,39.1665,1663920.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Miami, FL, UNITED STATES: 7 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.2108,25.7757,1074917.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Midland, MI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.2294,43.6236,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Midland, TX, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-102.1,32.0265,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Milwaukee, WI, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.9666,43.0634,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Minneapolis, MN, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-93.2668,44.9618,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monterey, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.882,36.6013,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Montville, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.3618,40.9144,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Morro Bay, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-120.866,35.3674,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Clemens, MI, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.8819,42.598,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Pleasant, SC, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-79.8638,32.8231,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Muncie, IN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.3906,40.1974,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Murfreesboro, TN, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-86.3946,35.8534,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Napa, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.3,38.2979,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Naperville, IL, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-88.1543,41.7626,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nashville, TN, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-86.68,36.12,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nebraska City, NE, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-95.8607,40.6762,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>New Carlisle, OH, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.0281,39.9435,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>New City, NY, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.9918,41.1538,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>New Orleans, LA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-89.9314,30.0658,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>New York, NY, UNITED STATES: 46 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.9438,40.6698,1990241.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Newark, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.1732,40.7241,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Niles, IL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.8095,42.027,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>North Port, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.1949,27.0496,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Norwalk, CA, UNITED STATES: 6 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.082,33.9069,1005891.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ocala, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.1308,29.1875,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Oceanside, CA, UNITED STATES: 7 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.31,33.2251,1074917.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Okemos, MI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.4145,42.7082,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Olympia, WA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.894,47.0419,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Omaha, NE, UNITED STATES: 30 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-96.0117,41.2639,1775117.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orange Park, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.7047,30.1686,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orland Park, IL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.8507,41.6105,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Orlando, FL, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-81.3742,28.5047,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PICO RIVERA, CA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.088,33.9898,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pacifica, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.476,37.6113,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Palm Beach Gardens, FL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.1204,26.8375,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Palmyra, PA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.595,40.3095,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parker, CO, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-104.764,39.5096,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pearl River, NY, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.0032,41.0606,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pensacola, FL, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.1895,30.4447,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Philadelphia, PA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.1347,40.0068,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Phoenix, AZ, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-112.071,33.5425,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pigeon Forge, TN, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-83.5581,35.7927,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Plano, TX, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-96.7467,33.0462,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Portage, MI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-85.5906,42.2014,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Portland, OR, UNITED STATES: 7 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.656,45.5382,1074917.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Princeton, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.6594,40.3503,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pulaski, TN, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.0343,35.1957,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Raleigh, NC, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-78.6588,35.8219,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rapid City, SD, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-103.233,44.0752,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Raymore, MO, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-94.4573,38.8112,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Reading, PA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.9264,40.339,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Red Bluff, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.24,40.1738,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Reston, VA, UNITED STATES: 31 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.35,38.95,1791529.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Richardson, TX, UNITED STATES: 6 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-96.7098,32.9728,1005891.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Richmond, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.361,37.9514,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Richmond, VA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.4746,37.5311,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ridgewood, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.1139,40.9811,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Riverside, CA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.397,33.9404,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roanoke, VA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-79.9584,37.2784,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roseland, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.3084,40.8219,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Roseville, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.294,38.7598,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Round Hill, VA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.7705,39.1335,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sacramento, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.467,38.5668,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Salinas, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.635,36.6848,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Salisbury, MD, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.589,38.3719,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Diego, CA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.136,32.8149,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Francisco, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.505,37.8133,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Jose, CA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.85,37.304,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Luis Obispo, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-120.665,35.2729,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Mateo, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.312,37.5613,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>San Rafael, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.506,37.9811,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Santa Cruz, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.036,36.9733,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Scottsdale, AZ, UNITED STATES: 10 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-111.87,33.686,1239534.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seaside, CA, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.819,36.6214,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Seattle, WA, UNITED STATES: 5 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.35,47.6218,926207.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Smithfield, RI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-71.5321,41.9017,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sonora, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-120.382,37.9836,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Springfield, VA, UNITED STATES: 6 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.1796,38.786,1005891.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St Joseph, MO, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-95.53,40.28,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St. Clair, MI, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.4929,42.8247,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stockton, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-121.307,37.9698,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Syracuse, NY, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-76.1441,43.0411,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TIFFIN, OH, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-83.1775,41.1167,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TITUSVILLE, FL, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-80.8202,28.5888,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tallahassee, FL, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.2814,30.457,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tampa, FL, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-82.4821,27.959,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tempe, AZ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-111.931,33.3884,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Toms River, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.1844,39.9546,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Topeka, KS, UNITED STATES: 3 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-95.692,39.0379,716611.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trenton, NJ, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-74.7642,40.2234,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Troy, NY, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-73.6755,42.7343,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Troy, OH, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-84.2192,40.0444,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tucson, AZ, UNITED STATES: 34 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-110.892,32.1958,1837851.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tujunga, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.287,34.252,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tulsa, OK, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-95.9164,36.1278,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Union City, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.016,37.6017,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VICTORVILLE, CA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-117.332,34.523,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vallejo, CA, UNITED STATES: 126 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.264,38.1075,2504086.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Visalia, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-119.321,36.3254,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wallingford, CT, UNITED STATES: 8 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-72.804,41.456,1135802.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Walnut Creek, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-122.041,37.902,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Washington, DC, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-77.0162,38.905,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Waukesha, WI, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-88.2382,43.0125,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wheeling, IL, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-87.9236,42.1305,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Whittier, CA, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-118.022,33.9666,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wichita, KS, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-97.3427,37.6874,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Willcox, AZ, UNITED STATES: 2 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-109.835,32.2507,567901.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wilmington, DE, UNITED STATES: 1 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-75.53,39.7356,358305.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Winchester, VA, UNITED STATES: 4 hits</name>
+				<styleUrl>#sphere_icon</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-78.175,39.1745,831960.000000</coordinates>
+					<extrude>1</extrude>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

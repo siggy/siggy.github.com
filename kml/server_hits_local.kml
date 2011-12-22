@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+
+<Document>
+   <Style id="gold_sphere">
+      <IconStyle>
+         <scale>0.3</scale>
+         <Icon>
+            <href>http://siggy.homelinux.org/kml/gold_sphere.png</href>
+         </Icon>
+      </IconStyle>
+   </Style>
+   <Placemark>
+      <name></name>
+      <styleUrl>#gold_sphere</styleUrl>
+      <Point>
+         <altitudeMode>relativeToGround</altitudeMode> 
+         <coordinates>-122.36868,37.831145,1</coordinates>
+      </Point>
+   </Placemark>   
+   <Placemark>
+      <name></name>
+      <styleUrl>#gold_sphere</styleUrl>
+      <Point>
+         <altitudeMode>relativeToGround</altitudeMode> 
+         <coordinates>-122.36868,37.831145,50000</coordinates>
+      </Point>
+   </Placemark>
+   <Placemark>
+      <name></name>
+      <styleUrl>#gold_sphere</styleUrl>
+      <Point>
+         <altitudeMode>relativeToGround</altitudeMode> 
+         <coordinates>-122.36868,37.831145,100000</coordinates>
+      </Point>
+   </Placemark>   
+</Document>
+</kml>
