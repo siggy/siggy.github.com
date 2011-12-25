@@ -34,11 +34,6 @@
   <priority>0.1333</priority>
  </url>
  <url>
-  <loc>http://sig.gy/concert_map/</loc>
-  <lastmod>2009-04-15T23:40:42Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
   <loc>http://sig.gy/concert_map/concert_map.html</loc>
   <lastmod>2009-08-19T06:33:52Z</lastmod>
   <priority>0.1333</priority>
@@ -318,16 +313,6 @@
   <priority>0.1333</priority>
  </url>
  <url>
-  <loc>http://sig.gy/earthlink/images/</loc>
-  <lastmod>2007-11-03T10:53:44Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
-  <loc>http://sig.gy/earthlink/images/pics_chuseok/</loc>
-  <lastmod>2007-11-03T10:53:43Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
   <loc>http://sig.gy/earthlink/images/pics_chuseok/350_aongus.jpg</loc>
   <lastmod>2002-11-02T19:00:00Z</lastmod>
   <priority>0.1333</priority>
@@ -385,11 +370,6 @@
  <url>
   <loc>http://sig.gy/earthlink/images/pics_chuseok/thumb_water.jpg</loc>
   <lastmod>2002-11-02T19:00:00Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
-  <loc>http://sig.gy/earthlink/images/pics_misc/</loc>
-  <lastmod>2007-11-03T10:53:44Z</lastmod>
   <priority>0.1333</priority>
  </url>
  <url>
@@ -1464,11 +1444,6 @@
   <priority>0.1333</priority>
  </url>
  <url>
-  <loc>http://sig.gy/living_room_layout/</loc>
-  <lastmod>2007-11-03T10:49:01Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
   <loc>http://sig.gy/living_room_layout/living_room_layout.bat</loc>
   <lastmod>2007-01-12T06:02:28Z</lastmod>
   <priority>0.1333</priority>
@@ -1501,16 +1476,6 @@
  <url>
   <loc>http://sig.gy/music_map.html</loc>
   <priority>0.2000</priority>
- </url>
- <url>
-  <loc>http://sig.gy/myipmap/</loc>
-  <lastmod>2007-11-03T10:49:05Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
-  <loc>http://sig.gy/myipmap/images/</loc>
-  <lastmod>2007-11-03T10:49:05Z</lastmod>
-  <priority>0.1333</priority>
  </url>
  <url>
   <loc>http://sig.gy/myipmap/images/Free-Trial.gif</loc>
@@ -1733,11 +1698,6 @@
   <priority>0.1333</priority>
  </url>
  <url>
-  <loc>http://sig.gy/mythtv_stuff/</loc>
-  <lastmod>2007-12-09T23:38:24Z</lastmod>
-  <priority>0.1333</priority>
- </url>
- <url>
   <loc>http://sig.gy/mythtv_stuff/lircrc-haupgrey-g3.txt</loc>
   <lastmod>2006-04-03T02:14:08Z</lastmod>
   <priority>0.1333</priority>
@@ -1770,11 +1730,6 @@
   <loc>http://sig.gy/robots.txt</loc>
   <lastmod>2007-03-10T17:34:16Z</lastmod>
   <priority>1.0000</priority>
- </url>
- <url>
-  <loc>http://sig.gy/scripts/</loc>
-  <lastmod>2009-09-04T19:55:34Z</lastmod>
-  <priority>0.1333</priority>
  </url>
  <url>
   <loc>http://sig.gy/scripts/google_analytics.js</loc>
