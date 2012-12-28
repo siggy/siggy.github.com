@@ -15,228 +15,192 @@ Living Room Layout
 
 digraph G
 {
-	/*
-	mclimit="100";
-	remincross="10";
-	*/
+  /*
+  mclimit="100";
+  remincross="10";
+  */
 
-	style=bold;
+  style=bold;
 
 
-	/*
-	 * graph setttings
-	 */
+  /*
+   * graph setttings
+   */
 
-	graph
-	[
-		label = "Living Room Layout",
-		fontname="Helvetica-bold",
-		fontsize="24",
-		fontcolor = "black",
-		mclimit="100"
-		remincross="10",
-		ratio=".7727" /* 8.5 x 11 */
-		/* ratio=".6471" */ /* 11 x 17 */
-	];
+  graph
+  [
+    label = "Living Room Layout",
+    fontname="Helvetica-bold",
+    fontsize="24",
+    fontcolor = "black",
+    mclimit="100"
+    remincross="10",
+    ratio=".7727" /* 8.5 x 11 */
+    /* ratio=".6471" */ /* 11 x 17 */
+  ];
 
-	/*
-	 * default node setttings
-	 */
+  /*
+   * default node setttings
+   */
 
-	node
-	[
-		shape = "box",
-		style = "filled",
-		fontname="Helvetica-bold",
-		fontsize="36",
-		fontcolor = "black",
-	];
-	
-	/*
-	 * default edge settings
-	 */
-	
-	edge
-	[
-		style = "bold",
-		fontname="Helvetica-bold",
-		fontsize="24",
-		arrowsize="2",
-	];
+  node
+  [
+    shape     = "box",
+    style     = "filled",
+    fontname  = "Helvetica-bold",
+    fontsize  = "36",
+    fontcolor = "black",
+  ];
 
-	/*
-	 * legend
-	 */
-	 
+  /*
+   * default edge settings
+   */
 
-	 subgraph cluster_outer
-	 {
-	 	label="Legend";
-	 	
-	 	"Computer"		[color="skyblue1"	shape="ellipse"];
-	 	"Wall Source"		[color="red2"		shape="ellipse"];
-		"Audio Renderer"	[color="palegreen4"	shape="ellipse"];
-	 	"Video Renderer"	[color="goldenrod1"	shape="ellipse"];
+  edge
+  [
+    style     = "bold",
+    fontname  = "Helvetica-bold",
+    fontsize  = "24",
+    arrowsize = "2",
+  ];
 
-	 	"Wall Source"	->	"Computer"		[color="red2"		label="power"];
-	 	"Wall Source"	->	"Computer"		[color="coral1"		label="cable"];
-	 	"Computer"	->	"Computer"		[color="blue1"		label="ethernet"];
-	 	"Computer"	->	"Audio Renderer"	[color="palegreen4"	label="audio"];
-	 	"Computer"	->	"Video Renderer"	[color="goldenrod1"	label="video"];
-	 }
+  /*
+   * legend
+   */
 
-	/*
-	 * Computers
-	 */
+   subgraph cluster_outer
+   {
+     label="Legend";
 
-	"sig"		[color="skyblue1" shape="ellipse"];
-	"MythBox"	[color="skyblue1" shape="ellipse"];
-	"siggy"		[color="skyblue1" shape="ellipse"];
-	"SEL"		[color="skyblue1" shape="ellipse"];
-	"bedroom"	[color="skyblue1" shape="ellipse"];
+     "Computer"       [color="skyblue1"   shape="ellipse"];
+     "Source"         [color="red2"       shape="ellipse"];
+     "Audio Renderer" [color="palegreen4" shape="ellipse"];
+     "Video Renderer" [color="goldenrod1" shape="ellipse"];
 
-	/*
-	 * Wall Sources
-	 */
+/*     "Source" -> "Computer" [color="red2"   label="power"];*/
+     "Source" -> "Computer" [color="coral1"];
 
-	"Wall Power"		[color="red2" shape="ellipse"];
-	"Wall Cable"		[color="red2" shape="ellipse"];
+     "Computer" -> "Computer"       [color="blue1"      label="ethernet"];
+     "Computer" -> "Audio Renderer" [color="palegreen4" label="audio"];
+     "Computer" -> "Video Renderer" [color="goldenrod1" label="video"];
+   }
 
-	/*
-	 * Audio Renderers
-	 */
+  /*
+   * Computers
+   */
 
-	"Kenwood"		[color="palegreen4" shape="ellipse"];
-	"bedroom speakers"	[color="palegreen4" shape="ellipse"];
+  "Mac mini XBMC" [color="skyblue1" shape="ellipse"];
+  "sig win7"      [color="skyblue1" shape="ellipse"];
+  "sig mb pro"    [color="skyblue1" shape="ellipse"];
+  "seung win7"    [color="skyblue1" shape="ellipse"];
+  "seung mb air"  [color="skyblue1" shape="ellipse"];
+  "10TB NAS"      [color="skyblue1" shape="ellipse"];
 
-	/*
-	 * Video Renderers
-	 */
+  /*
+   * Sources
+   */
 
-	"IN72 projector"	[color="goldenrod1" shape="ellipse"];
+/*  "Wall Power"       [color="red2" shape="ellipse"];*/
+  "100/100 Ethernet" [color="red2" shape="ellipse"];
+  "TV Antenna"       [color="red2" shape="ellipse"];
 
-	"Samsung 173P A"	[color="goldenrod1" shape="ellipse"];
-	"Samsung 173P B"	[color="goldenrod1" shape="ellipse"];
-	"Samsung 176T"		[color="goldenrod1" shape="ellipse"];
-	"Samsung 152T"		[color="goldenrod1" shape="ellipse"];
+  /*
+   * Audio Renderers
+   */
 
-	/*
-	 * CONNECTIONS
-	 */
+  "Kenwood" [color="palegreen4" shape="ellipse"];
 
-	/*
-	 * Power
-	 */
+  /*
+   * Video Renderers
+   */
 
-	"Wall Power"	->	"surge A"		[color="red2"];
-	"Wall Power"	->	"surge B"		[color="red2"];
-	"Wall Power"	->	"surge D"		[color="red2"];
-	"Wall Power"	->	"surge E"		[color="red2"];
-	
-	"Wall Power"	->	"IN72 projector"	[color="red2"];
-	
-	"Wall Power"	->	"bedroom surge"		[color="red2"];
-	"bedroom surge"	->	"bedroom"		[color="red2"];
-	"bedroom surge"	->	"bedroom VCR"		[color="red2"];
-	"bedroom surge"	->	"bedroom speakers"	[color="red2"];
-	
-	"surge A"	->	"cable box"		[color="red2"];
-	"surge A"	->	"DVD"			[color="red2"];
-	"surge A"	->	"VCR"			[color="red2"];
+  "5010e projector" [color="goldenrod1" shape="ellipse"];
+  "Dell U3011"      [color="goldenrod1" shape="ellipse"];
+  "Samsung 173P"    [color="goldenrod1" shape="ellipse"];
+  "Samsung 173P B"  [color="goldenrod1" shape="ellipse"];
 
-	"surge B"	->	"PS1"			[color="red2"];
-	"surge B"	->	"Kenwood"		[color="red2"];
+  /*
+   * CONNECTIONS
+   */
 
-	"surge C"	->	"Samsung 173P A"	[color="red2"];
-	"surge C"	->	"Samsung 173P B"	[color="red2"];
-	"surge C"	->	"sig"			[color="red2"];
-	"surge C"	->	"DVI splitter"		[color="red2"];
+  /*
+   * Power
+   */
 
-	"surge D"	->	"surge C"		[color="red2"];
-	"surge D"	->	"Hawking wifi"		[color="red2"];
-	"surge D"	->	"cable modem"		[color="red2"];
-	"surge D"	->	"router"		[color="red2"];
+   /*
+  "Wall Power" -> "surge A" [color="red2"];
+  "Wall Power" -> "surge B" [color="red2"];
+  "surge A"    -> "surge C" [color="red2"];
+  "surge B"    -> "surge D" [color="red2"];
 
-	"surge E"	->	"MythBox"		[color="red2"];
-	"surge E"	->	"siggy"			[color="red2"];
-	"surge E"	->	"SEL"			[color="red2"];
-	"surge E"	->	"Samsung 176T"		[color="red2"];
-	"surge E"	->	"Samsung 152T"		[color="red2"];
+  "Wall Power" -> "5010e projector" [color="red2"];
 
-	/*
-	 * Cable
-	 */
+  "surge A" -> "sig win7"   [color="red2"];
+  "surge A" -> "seung win7" [color="red2"];
 
-	"Wall Cable"		->	"2/1 cable splitter A"	[color="coral1"];
-	"2/1 cable splitter A"	->	"4/1 cable splitter"	[color="coral1"];
-	"2/1 cable splitter A"	->	"bedroom VCR"		[color="coral1"];
-	
-	"4/1 cable splitter"	->	"2/1 cable splitter B"	[color="coral1"];
-	"4/1 cable splitter"	->	"MythBox"		[color="coral1" label="Tuner A"];
-	"4/1 cable splitter"	->	"MythBox"		[color="coral1" label="Tuner B"];
-	"4/1 cable splitter"	->	"VCR"			[color="coral1"];
+  "surge A" -> "Dell U3011"     [color="red2"];
+  "surge A" -> "Samsung 173P"   [color="red2"];
+  "surge A" -> "Samsung 173P B" [color="red2"];
 
-	"2/1 cable splitter B"	->	"cable box"		[color="coral1"];
-	"2/1 cable splitter B"	->	"cable modem"		[color="coral1"];	
+  "surge B" -> "E4000 router"   [color="red2"];
+  "surge B" -> "Gigabit switch" [color="red2"];
 
-	/*
-	 * Ethernet
-	 */
+  "surge C" -> "Mac mini XBMC" [color="red2"];
+  "surge C" -> "10TB NAS"      [color="red2"];
 
-	"cable modem"	->	"MythBox"		[color="blue1"];
-	"MythBox"	->	"router"		[color="blue1"];
-	"router"	->	"Hawking wifi"		[color="blue1"];
-	"router"	->	"sig"			[color="blue1"];
-	"router"	->	"siggy"			[color="blue1"];
-	"router"	->	"SEL"			[color="blue1"];
+  "surge D" -> "Kenwood" [color="red2"];
+  "surge D" -> "PS3"     [color="red2"];
+  "surge D" -> "LP"      [color="red2"];
+  */
 
-	"Hawking wifi"	->	"bedroom"		[color="blue1"];
+  /*
+   * Ethernet
+   */
 
-	/*
-	 * Audio
-	 */
+  "100/100 Ethernet" -> "E4000 router"   [color="blue1"];
+  "E4000 router"     -> "Gigabit switch" [color="blue1"];
 
-	"sig"		->	"A/V Selector"		[color="palegreen4" label="1"];
-	"VCR"		->	"A/V Selector"		[color="palegreen4" label="2"];
-	"MythBox"	->	"A/V Selector"		[color="palegreen4" label="3"];
-	"siggy"		->	"A/V Selector"		[color="palegreen4" label="4"];
-	"SEL"		->	"A/V Selector"		[color="palegreen4" label="5"];
-	"PS1"		->	"A/V Selector"		[color="palegreen4" label="6"];
+  "Gigabit switch" -> "Mac mini XBMC" [color="blue1"];
+  "Gigabit switch" -> "sig win7"      [color="blue1"];
+  "Gigabit switch" -> "seung win7"    [color="blue1"];
+  "Gigabit switch" -> "10TB NAS"      [color="blue1"];
 
-	"cable box"	->	"Kenwood"		[color="palegreen4"];
-	"DVD"		->	"Kenwood"		[color="palegreen4"];
-	"A/V Selector"	->	"Kenwood"		[color="palegreen4"];
+  /*
+   * Audio
+   */
 
-	"bedroom"	->	"bedroom speakers"	[color="palegreen4"];
+  "sig win7"      -> "A/V Selector" [color="palegreen4"];
+  "LP"            -> "A/V Selector" [color="palegreen4"];
+  "A/V Selector"  -> "Kenwood"      [color="palegreen4"];
+  "Mac mini XBMC" -> "Kenwood"      [color="palegreen4"];
+  "PS3"           -> "Kenwood"      [color="palegreen4"];
 
-	/*
-	 * Video
-	 */
+  /*
+   * Video
+   */
 
-	"cable box"	->	"IN72 projector"	[color="goldenrod1" label="HDMI"];
-	"DVD"		->	"IN72 projector"	[color="goldenrod1" label="component"];
+  "TV Antenna"   -> "USB HD Tuner"  [color="goldenrod1"];
+  "USB HD Tuner" -> "Mac mini XBMC" [color="goldenrod1"];
 
-	"MythBox"	->	"A/V Selector"		[color="goldenrod1" label="3"];
-	"PS1"		->	"A/V Selector"		[color="goldenrod1" label="6"];
+  "Mac mini XBMC" -> "5010e projector" [color="goldenrod1" label="HDMI1"];
+  "PS3"           -> "5010e projector" [color="goldenrod1" label="WirelessHD"];
+  "sig win7"      -> "5010e projector" [color="goldenrod1" label="HDMI2"];
+  "sig win7"      -> "Dell U3011"      [color="goldenrod1" label="DVI"];
 
-	"A/V Selector"	->	"IN72 projector"	[color="goldenrod1" label="S-Video"];
-	"A/V Selector"	->	"IN72 projector"	[color="goldenrod1" label="composite"];
+  "seung win7"    -> "Samsung 173P"    [color="goldenrod1" label="DVI"];
+  "seung win7"    -> "Samsung 173P B"  [color="goldenrod1" label="DVI"];
 
-	"sig"		->	"KVM"			[color="goldenrod1" label="A"];
-	"sig"		->	"DVI splitter"		[color="goldenrod1"];
-	
-	"MythBox"	->	"KVM"			[color="goldenrod1" label="B"];
-	"siggy"		->	"KVM"			[color="goldenrod1" label="C"];
+  "seung mb air"        -> "Samsung 173P"        [color="goldenrod1" label="DVI"];
+  "seung mb air"        -> "Diamond DisplayLink" [color="goldenrod1" label="USB"];
+  "Diamond DisplayLink" -> "Samsung 173P B"      [color="goldenrod1" label="DVI"];
 
-	"DVI splitter"	-> 	"Samsung 173P A"	[color="goldenrod1"];
-	"DVI splitter"	->	"IN72 projector"	[color="goldenrod1" label="M1-DA"];
+  "sig mb pro"                   -> "Mini DP to Dual-Link adapter" [color="goldenrod1" label="Mini DP / USB"];
+  "Mini DP to Dual-Link adapter" -> "Dell U3011"                   [color="goldenrod1" label="DVI"];
 
-	"KVM"		->	"Samsung 173P B"	[color="goldenrod1"];
+  /*
+   * Controls
+   */
 
-	"SEL"		->	"Samsung 176T"		[color="goldenrod1"];
-	"SEL"		->	"Samsung 152T"		[color="goldenrod1"];
-	
-	"VCR"		->	"sig"			[color="goldenrod1" label="composite"];
-	
-	"bedroom VCR"	->	"bedroom"		[color="goldenrod1"];
+  "sig mb pro"            -> "Mac mini XBMC" [color="firebrick1" label="VNC"];
+  "Apple Remote for XBMC" -> "Mac mini XBMC" [color="firebrick1"];
 }
