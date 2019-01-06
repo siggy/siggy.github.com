@@ -1,0 +1,15 @@
+{
+  "short_name": "sig.gy",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/vnd.microsoft.icon",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#006800",
+  "display": "browser",
+  "scope": "/",
+  "theme_color": "#006800"
+}
