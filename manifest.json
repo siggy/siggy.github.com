@@ -1,5 +1,6 @@
 {
   "short_name": "sig.gy",
+  "name": "siggy's house",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -9,7 +10,7 @@
   ],
   "start_url": "/",
   "background_color": "#006800",
-  "display": "browser",
+  "display": "fullscreen",
   "scope": "/",
   "theme_color": "#006800"
 }
