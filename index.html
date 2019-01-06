@@ -323,5 +323,18 @@
     </div>
 
     <a href="archive" aria-label="archive" class="pi">π</a>
+
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('sw.js')
+          .then(function(registration) {
+            console.log("Service Worker registered: " + registration);
+          })
+          .catch(function(e) {
+            console.log("Service Worker registration failed: "+ e);
+          });
+      }
+    </script>
   </body>
 </html>
