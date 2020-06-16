@@ -1,0 +1,51 @@
+#!/bin/sh
+#
+# This script updates the default branch of your git repo's local clone from
+# 'master' to 'main'.
+#
+# Based on:
+# https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx
+# https://twitter.com/xunit/status/1269881005877256192
+#
+# To run:
+# curl https://sig.gy/main | sh
+#
+# This script should be run after an administrator has renamed origin/master to
+# origin/main and set it as the default branch.
+#
+# To rename origin/master to origin/main (admins only):
+# 0. If code in your repo references the 'master' branch, prep a PR to rename
+#    'master' to 'main'.
+# 1. git branch --move master main
+# 2. git push --set-upstream origin main
+# 3. PUSH=$(git remote get-url --push origin) && open ${PUSH%.git}/settings/branches
+#    (change Default branch to main, and Branch protection rules to main if set)
+# 4. git push origin --delete master
+# 5. Update any CI/Build integrations to use 'main'.
+# 6. Merge PR from step 0 if applicable.
+#
+# Bonus: Create a 'git new' alias to initialize new repos with 'main':
+# git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/main'
+
+set -e
+
+# Go to the master branch
+git checkout master
+
+# Rename master to main locally
+git branch --move master main
+
+# Get the latest commits from the server
+git fetch
+
+# Remove the link to origin/master
+git branch --unset-upstream
+
+# Add a link to origin/main
+git branch --set-upstream-to origin/main
+
+# Update the default branch to be origin/main
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+# Remove remotes/origin/master
+git pull --prune
