@@ -20,9 +20,10 @@
 # 2. git push --set-upstream origin main
 # 3. PUSH=$(git remote get-url --push origin) && open ${PUSH%.git}/settings/branches
 #    (change Default branch to main, and Branch protection rules to main if set)
-# 4. git push origin --delete master
-# 5. Update any CI/Build integrations to use 'main'.
-# 6. Merge PR from step 0 if applicable.
+# 4. Update any open PRs to use main as the base branch.
+# 5. Update any CI/Build integrations to use main.
+# 6. git push origin --delete master
+# 7. Merge PR from step 0 if applicable.
 #
 # Bonus: Create a 'git new' alias to initialize new repos with 'main':
 # git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/main'
