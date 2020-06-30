@@ -400,15 +400,5 @@
     </div>
 
     <a href="archive" aria-label="archive" class="pi">π</a>
-
-    <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-          .register('sw.js')
-          .catch(function(e) {
-            console.log("Service Worker registration failed: "+ e);
-          });
-      }
-    </script>
   </body>
 </html>
