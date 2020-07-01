@@ -404,7 +404,7 @@
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker
-          .register('sw.js')
+          .register('sw.js?cache-bust')
           .catch(function(e) {
             console.log("Service Worker registration failed: "+ e);
           });
