@@ -138,7 +138,7 @@ digraph G
    */
 
   "Onkyo TX-NR929"   -> "Paradigm Reference Studio 20 v5" [color="palegreen4" label="Banana Plugs"];
-  "Epson WirelessHD" -> "Onkyo TX-NR929"                  [color="palegreen4" label="Optical1"];
+  "Epson WirelessHD" -> "Onkyo TX-NR929"                  [color="palegreen4" label="TOSLINK"];
 
   /*
    * Video

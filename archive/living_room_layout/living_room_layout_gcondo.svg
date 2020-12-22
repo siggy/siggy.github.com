@@ -183,21 +183,21 @@
 <!-- Onkyo TX&#45;NR929 -->
 <g id="node11" class="node">
 <title>Onkyo TX&#45;NR929</title>
-<ellipse fill="#548b54" stroke="#548b54" cx="567" cy="-126" rx="77.19" ry="18"/>
-<text text-anchor="middle" x="567" y="-122.3" font-family="Times,serif" font-size="14.00">Onkyo TX&#45;NR929</text>
+<ellipse fill="#548b54" stroke="#548b54" cx="575" cy="-126" rx="77.19" ry="18"/>
+<text text-anchor="middle" x="575" y="-122.3" font-family="Times,serif" font-size="14.00">Onkyo TX&#45;NR929</text>
 </g>
 <!-- Paradigm Reference Studio 20 v5 -->
 <g id="node12" class="node">
 <title>Paradigm Reference Studio 20 v5</title>
-<ellipse fill="#548b54" stroke="#548b54" cx="567" cy="-39" rx="130.78" ry="18"/>
-<text text-anchor="middle" x="567" y="-35.3" font-family="Times,serif" font-size="14.00">Paradigm Reference Studio 20 v5</text>
+<ellipse fill="#548b54" stroke="#548b54" cx="575" cy="-39" rx="130.78" ry="18"/>
+<text text-anchor="middle" x="575" y="-35.3" font-family="Times,serif" font-size="14.00">Paradigm Reference Studio 20 v5</text>
 </g>
 <!-- Onkyo TX&#45;NR929&#45;&gt;Paradigm Reference Studio 20 v5 -->
 <g id="edge11" class="edge">
 <title>Onkyo TX&#45;NR929&#45;&gt;Paradigm Reference Studio 20 v5</title>
-<path fill="none" stroke="#548b54" d="M567,-107.8C567,-96.16 567,-80.55 567,-67.24"/>
-<polygon fill="#548b54" stroke="#548b54" points="570.5,-67.18 567,-57.18 563.5,-67.18 570.5,-67.18"/>
-<text text-anchor="middle" x="604.5" y="-78.8" font-family="Times,serif" font-size="14.00">Banana Plugs</text>
+<path fill="none" stroke="#548b54" d="M575,-107.8C575,-96.16 575,-80.55 575,-67.24"/>
+<polygon fill="#548b54" stroke="#548b54" points="578.5,-67.18 575,-57.18 571.5,-67.18 578.5,-67.18"/>
+<text text-anchor="middle" x="612.5" y="-78.8" font-family="Times,serif" font-size="14.00">Banana Plugs</text>
 </g>
 <!-- Epson WirelessHD -->
 <g id="node19" class="node">
@@ -208,9 +208,9 @@
 <!-- Onkyo TX&#45;NR929&#45;&gt;Epson WirelessHD -->
 <g id="edge19" class="edge">
 <title>Onkyo TX&#45;NR929&#45;&gt;Epson WirelessHD</title>
-<path fill="none" stroke="#ffc125" d="M552.93,-144.12C542.75,-155.3 528.02,-169.22 512,-177 471.34,-196.76 454.38,-186.7 406.52,-194.92"/>
-<polygon fill="#ffc125" stroke="#ffc125" points="405.69,-191.51 396.52,-196.82 407,-198.39 405.69,-191.51"/>
-<text text-anchor="middle" x="555" y="-165.8" font-family="Times,serif" font-size="14.00">HDMI4</text>
+<path fill="none" stroke="#ffc125" d="M559.36,-144.12C548.13,-155.3 532.02,-169.23 515,-177 472.67,-196.34 455.62,-186.46 406.45,-194.92"/>
+<polygon fill="#ffc125" stroke="#ffc125" points="405.7,-191.5 396.52,-196.8 407,-198.38 405.7,-191.5"/>
+<text text-anchor="middle" x="560" y="-165.8" font-family="Times,serif" font-size="14.00">HDMI4</text>
 </g>
 <!-- Epson 5030UBe -->
 <g id="node13" class="node">
@@ -271,9 +271,9 @@
 <!-- Epson WirelessHD&#45;&gt;Onkyo TX&#45;NR929 -->
 <g id="edge12" class="edge">
 <title>Epson WirelessHD&#45;&gt;Onkyo TX&#45;NR929</title>
-<path fill="none" stroke="#548b54" d="M378.84,-194.91C403.87,-185.05 436.12,-172.55 465,-162 481.17,-156.1 498.87,-149.92 514.93,-144.43"/>
-<polygon fill="#548b54" stroke="#548b54" points="516.35,-147.64 524.69,-141.1 514.09,-141.02 516.35,-147.64"/>
-<text text-anchor="middle" x="488.5" y="-165.8" font-family="Times,serif" font-size="14.00">Optical1</text>
+<path fill="none" stroke="#548b54" d="M374.3,-194.98C397.9,-184.79 428.93,-171.93 457,-162 476.3,-155.17 497.68,-148.55 516.88,-142.94"/>
+<polygon fill="#548b54" stroke="#548b54" points="518.06,-146.24 526.7,-140.1 516.12,-139.52 518.06,-146.24"/>
+<text text-anchor="middle" x="486" y="-165.8" font-family="Times,serif" font-size="14.00">TOSLINK</text>
 </g>
 <!-- Epson WirelessHD&#45;&gt;Epson 5030UBe -->
 <g id="edge20" class="edge">
@@ -285,9 +285,9 @@
 <!-- Homeworx HW130STB&#45;&gt;Onkyo TX&#45;NR929 -->
 <g id="edge14" class="edge">
 <title>Homeworx HW130STB&#45;&gt;Onkyo TX&#45;NR929</title>
-<path fill="none" stroke="#ffc125" d="M721.74,-194.8C689.7,-180.76 644.43,-160.93 611.13,-146.34"/>
-<polygon fill="#ffc125" stroke="#ffc125" points="612.21,-142.99 601.65,-142.18 609.4,-149.4 612.21,-142.99"/>
-<text text-anchor="middle" x="695.5" y="-165.8" font-family="Times,serif" font-size="14.00">TV/CD</text>
+<path fill="none" stroke="#ffc125" d="M723.36,-194.8C692.86,-180.86 649.88,-161.22 618.03,-146.66"/>
+<polygon fill="#ffc125" stroke="#ffc125" points="619.08,-143.29 608.53,-142.32 616.17,-149.66 619.08,-143.29"/>
+<text text-anchor="middle" x="699.5" y="-165.8" font-family="Times,serif" font-size="14.00">TV/CD</text>
 </g>
 <!-- Nintendo Switch -->
 <g id="node21" class="node">
@@ -298,9 +298,9 @@
 <!-- Nintendo Switch&#45;&gt;Onkyo TX&#45;NR929 -->
 <g id="edge15" class="edge">
 <title>Nintendo Switch&#45;&gt;Onkyo TX&#45;NR929</title>
-<path fill="none" stroke="#ffc125" d="M604.49,-194.8C597.82,-182.74 588.79,-166.4 581.26,-152.79"/>
-<polygon fill="#ffc125" stroke="#ffc125" points="584.24,-150.94 576.34,-143.89 578.11,-154.33 584.24,-150.94"/>
-<text text-anchor="middle" x="613" y="-165.8" font-family="Times,serif" font-size="14.00">Game1</text>
+<path fill="none" stroke="#ffc125" d="M606.11,-194.8C600.66,-182.93 593.32,-166.93 587.14,-153.45"/>
+<polygon fill="#ffc125" stroke="#ffc125" points="590.23,-151.8 582.88,-144.18 583.87,-154.72 590.23,-151.8"/>
+<text text-anchor="middle" x="616" y="-165.8" font-family="Times,serif" font-size="14.00">Game1</text>
 </g>
 <!-- Chromecast&#45;&gt;Epson WirelessHD -->
 <g id="edge17" class="edge">
