@@ -1,0 +1,168 @@
+/*
+
+Living Room Layout
+
+*/
+
+
+/*
+ * data formatted for GraphViz:
+ * www.graphviz.org
+ *
+ * Command syntax example:
+  cat living_room_layout_gcondo.graphviz | dot -Tsvg -oliving_room_layout_gcondo.svg
+ */
+
+digraph G
+{
+  /*
+   * graph setttings
+   */
+
+  graph
+  [
+    label = "Living Room Layout",
+    fontname  = "Roboto,Arial,sans-serif",
+    fontsize  = "12",
+  ];
+
+  /*
+   * default node setttings
+   */
+
+  node
+  [
+    shape     = "box",
+    style     = "filled",
+  ];
+
+  /*
+   * default edge settings
+   */
+
+  edge
+  [
+  ];
+
+  /*
+   * legend
+   */
+
+   subgraph cluster_outer
+   {
+     label="Legend";
+
+     "Computer"       [color="skyblue1"   shape="ellipse"];
+     "Source"         [color="red2"       shape="ellipse"];
+     "Audio Renderer" [color="palegreen4" shape="ellipse"];
+     "Video Renderer" [color="goldenrod1" shape="ellipse"];
+
+     "Source" -> "Computer" [color="red2"   label="power"];
+
+     "Computer" -> "Computer"       [color="blue1"      label="ethernet"];
+     "Computer" -> "Audio Renderer" [color="palegreen4" label="audio"];
+     "Computer" -> "Video Renderer" [color="goldenrod1" label="video"];
+
+     "Misc" -> "Audio Renderer" [color="purple" label="control"];
+   }
+
+  /*
+   * Computers
+   */
+
+  "sig10"       [color="skyblue1" shape="ellipse"];
+  "sig mbp"     [color="skyblue1" shape="ellipse"];
+
+  /*
+   * Sources
+   */
+
+  "Wall Power"         [color="red2" shape="ellipse"];
+  "1000/1000 Ethernet" [color="red2" shape="ellipse"];
+  "HDTV Antenna"       [color="red2" shape="ellipse"];
+
+  /*
+   * Audio Renderers
+   */
+
+  "Onkyo TX-NR929"                  [color="palegreen4" shape="ellipse"];
+  "Paradigm Reference Studio 20 v5" [color="palegreen4" shape="ellipse"];
+
+  /*
+   * Video Renderers
+   */
+
+  "Epson 5030UBe" [color="goldenrod1" shape="ellipse"];
+  "Dell UP3214Q"  [color="goldenrod1" shape="ellipse"];
+
+  /*
+   * CONNECTIONS
+   */
+
+  /*
+   * Power
+   */
+/*
+  "Wall Power" -> "surge A" [color="red2"];
+  "Wall Power" -> "Belkin SurgePlus USB" [color="red2"];
+  "Wall Power" -> "surge B" [color="red2"];
+  "Wall Power" -> "Epson 5030UBe" [color="red2"];
+
+  "surge A" -> "E4000 router"   [color="red2"];
+  "surge A" -> "Gigabit switch" [color="red2"];
+  "surge A" -> "Apple TV 4K"    [color="red2"];
+  "surge A" -> "Onkyo TX-NR929" [color="red2"];
+  "surge A" -> "PS4"            [color="red2"];
+  "surge A" -> "LP"             [color="red2"];
+
+  "Belkin SurgePlus USB" -> "Epson WirelessHD" [color="red2"];
+  "HDTV Antenna"         -> "Epson WirelessHD" [color="red2"];
+
+  "surge B" -> "sig10"        [color="red2"];
+  "surge B" -> "UPLIFT 24"    [color="red2"];
+  "surge B" -> "Dell UP3214Q" [color="red2"];
+*/
+  /*
+   * Ethernet
+   */
+
+  "1000/1000 Ethernet" -> "Wifi router"   [color="blue1"];
+  "Wifi router"        -> "Gigabit switch" [color="blue1"];
+
+  "Gigabit switch" -> "Apple TV 4K" [color="blue1"];
+  "Gigabit switch" -> "sig10"       [color="blue1"];
+  "Gigabit switch" -> "PS4"         [color="blue1"];
+
+  /*
+   * Audio
+   */
+
+  "Onkyo TX-NR929"   -> "Paradigm Reference Studio 20 v5" [color="palegreen4" label="Banana Plugs"];
+  "Epson WirelessHD" -> "Onkyo TX-NR929"                  [color="palegreen4" label="Optical1"];
+
+  /*
+   * Video
+   */
+
+  "HDTV Antenna"      -> "Homeworx HW130STB"  [color="goldenrod1"];
+  "Homeworx HW130STB" -> "Onkyo TX-NR929" [color="goldenrod1" label="TV/CD"];
+  "Nintendo Switch"   -> "Onkyo TX-NR929" [color="goldenrod1" label="Game1"];
+
+  "Apple TV 4K"    -> "Epson WirelessHD" [color="goldenrod1" label="HDMI1"];
+  "Chromecast"     -> "Epson WirelessHD" [color="goldenrod1" label="HDMI2"];
+  "PS4"            -> "Epson WirelessHD" [color="goldenrod1" label="HDMI3"];
+  "Onkyo TX-NR929" -> "Epson WirelessHD" [color="goldenrod1" label="HDMI4"];
+
+  "Epson WirelessHD" -> "Epson 5030UBe" [color="goldenrod1" label="WirelessHD"];
+
+  "sig10"       -> "Dell UP3214Q"            [color="goldenrod1" label="DisplayPort"];
+  "sig mbp"     -> "Dell UP3214Q"            [color="goldenrod1" label="Mini DP"];
+
+  /*
+   * Controls
+   */
+
+  "sig mbp"      -> "Apple TV 4K" [color="purple" label="AirPlay"];
+  "sig mbp"      -> "Chromecast"  [color="purple" label="Cast"];
+  "Apple Remote" -> "Apple TV 4K" [color="purple"];
+}
